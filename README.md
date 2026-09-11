@@ -1,19 +1,46 @@
 ## 👋 Hi, I'm Rubby
 
-**安全工具开发者 · 红蓝对抗实践者 · [赤霄攻防实验室](https://github.com/Rubby2001/Rshell---A-Cross-Platform-C2) 成员**
+**Security Tool Developer · Red/Blue Team Practitioner · [Chixiao Offense & Defense Lab](https://github.com/Rubby2001/Rshell---A-Cross-Platform-C2)**
 
-热衷于把攻防实战中的痛点，沉淀成开箱即用的安全工具。
+I turn pain points from real-world offense and defense engagements into ready-to-use security tooling.
+
+[中文版👇](#-rshell--跨平台多协议-c2-框架)
 
 [![Visitor](https://visitor-badge.laobi.icu/badge?page_id=Rubby2001.Rubby2001)](https://github.com/Rubby2001)
 [![Mail](https://img.shields.io/badge/📧-rubby2001@foxmail.com-blue)](mailto:rubby2001@foxmail.com)
-[![公众号](https://img.shields.io/badge/公众号-赤霄攻防实验室-brightgreen)](#-公众号)
+[![WeChat MP](https://img.shields.io/badge/WeChat_MP-Chixiao_Lab-brightgreen)](#-公众号)
 
 
 ---
 
-## 🚀 开源项目
+## 🚀 Open Source Projects
 
-### Rshell - 跨平台多协议 C2 框架
+### Rshell - A Cross-Platform Multi-Protocol C2 Framework
+
+An open-source (MIT) C2 framework written in Golang, built for authorized penetration testing and red/blue teaming:
+
+- 🌐 **Multi-protocol callbacks**: WebSocket / TCP / KCP / HTTP / OSS, plus SOCKS5-forwarded channels
+- 🦀 **Dual-language clients**: full-platform Golang builds (incl. loong64 / mips) + a Rust rewrite (smaller binaries, amice LLVM compile-time obfuscation)
+- 📦 **Single-file deployment**: embedded frontend, no CGO, zero dependencies — copy and run
+- 🖥️ **Web console**: interactive terminal, file manager, plugin system, sensitive-information search
+- 🔒 **Encrypted C2**: per-client keys, X25519 + AES-CFB
+
+| Repository                                                        | Description                              |
+| ----------------------------------------------------------------- | ---------------------------------------- |
+| [Rshell---A-Cross-Platform-C2](https://github.com/Rubby2001/Rshell---A-Cross-Platform-C2) | Main repo (server — a ⭐ Star means a lot) |
+| [Rshell-client](https://github.com/Rubby2001/Rshell-client)       | Golang client (implant)                  |
+| [Rshell-client-rust](https://github.com/Rubby2001/Rshell-client-rust) | Rust client (smaller + LLVM obfuscation) |
+| [Rshell-web](https://github.com/Rubby2001/Rshell-web)             | Web frontend                             |
+| [Rshell-Skills](https://github.com/Rubby2001/Rshell-Skills)       | AI-Agent control skill pack              |
+
+## 📮 Contact
+
+- 📧 Email: **rubby2001@foxmail.com**
+- 💬 For questions, feature requests or collaboration, reach out via email or GitHub issues
+
+---
+
+## Rshell - 跨平台多协议 C2 框架（中文）
 
 Golang 编写、MIT 协议开源的 C2 框架，面向安服人员渗透测试与红蓝对抗场景：
 
@@ -47,10 +74,10 @@ Golang 编写、MIT 协议开源的 C2 框架，面向安服人员渗透测试�
 </div>
 
 
-
 ---
 
 <div align="center">
 
-**如果 Rshell 对你有帮助，欢迎 [Star ⭐](https://github.com/Rubby2001/Rshell---A-Cross-Platform-C2) 支持一下！**
+**If Rshell helps you, please give it a [Star ⭐](https://github.com/Rubby2001/Rshell---A-Cross-Platform-C2)!**
 
+</div>
